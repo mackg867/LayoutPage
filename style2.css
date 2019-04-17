@@ -1,0 +1,61 @@
+html, body{
+    background-color: black;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cover {
+    height: 350px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover_images {
+    height: 250px;
+    width: 400px;
+}
+
+.project_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 1%;
+    grid-gap: 1%;
+}
+
+.project_grid_align {
+    display: flex;
+    justify-content: center;
+}
+
+.project_bg {
+    background-color: darkgrey;
+    border-radius: 50px;
+}
+
+.project_images {
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+}
+
+.footer {
+    height: 65px;
+    background-color: red;
+}
+
+.footer_text {
+    color: black;
+    font-size:1em;
+}
