@@ -9,7 +9,7 @@ html, body{
 
 .header {
     height: 50px;
-    background-color: red;
+    background-color: pink;
     display: flex;
     justify-content: space-between;
 }
