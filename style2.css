@@ -1,5 +1,5 @@
-html, body{
-    background-color: black;
+body{
+    margin: 0 auto;
 }
 
 .layout {
@@ -9,9 +9,21 @@ html, body{
 
 .header {
     height: 50px;
-    background-color: red;
+    background-color: pink;
+}
+
+ul {
     display: flex;
-    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 1em;
 }
 
 .cover {
