@@ -12,6 +12,14 @@ body{
     background-color: pink;
 }
 
+@media only screen and (max-width: 600px) {
+    .header {
+        background-color: black;
+    }
+    /*<550 gets you a single project*/
+    /*>800 gets you 3 projects*/
+}
+
 ul {
     display: flex;
 }
