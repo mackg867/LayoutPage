@@ -9,7 +9,7 @@ body{
 
 .header {
     height: 50px;
-    background-color: pink;
+    background-color: red;
 }
 
 @media only screen and (max-width: 600px) {
