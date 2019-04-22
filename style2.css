@@ -16,8 +16,6 @@ body{
     .header {
         background-color: black;
     }
-    /*<550 gets you a single project*/
-    /*>800 gets you 3 projects*/
 }
 
 ul {
@@ -49,7 +47,7 @@ a {
 
 .project_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     padding: 1%;
     grid-gap: 1%;
 }
@@ -69,6 +67,15 @@ a {
     width: 150px;
     margin: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .project_images {
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+    }
+}
+
 
 .footer {
     height: 65px;
